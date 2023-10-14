@@ -1,0 +1,377 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1040px;
+  margin: 0 auto;
+}
+
+#header {
+  background:url(./Vector.png);
+  padding: 47px 0px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.fut {
+  color: #fff;
+
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+  letter-spacing: 0.1px;
+}
+.header-nev {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 367;
+  gap: 137px;
+}
+.header-nev select {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.2px;
+  background: none;
+  border: none;
+}
+.header-nev h2 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.2px;
+}
+#get{
+    background: url(./Vector.png);
+    height: 730px;
+}
+.get {
+ 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.get-nav{
+    margin: 16px;
+}
+.get-nav h1 {
+  
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700px;
+  letter-spacing: 0.2px;.
+  margin-top: 40px;
+}
+.get-nav p {
+  width: 521px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  margin-top: 30px;
+}
+.get-nav button{
+    color: #FFF;
+font-size: 20px;
+font-weight: 700;
+letter-spacing: 0.2px;
+background: none;
+margin-top: 40px;
+}
+.get-nev img{
+    margin: -3px;
+}
+.det-nav img{
+   margin-top: 80px;}
+
+.ter{
+  margin-top: 100px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.ter-nav h1{
+  color: #000;
+
+font-size: 24px;
+font-weight: 700;
+line-height: 32px; /* 133.333% */
+letter-spacing: 0.1px;
+}
+.ter-nav h4{
+  color: #000;
+
+font-size: 14px;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+letter-spacing: 0.2px;
+}
+
+.ter-nev img{
+  width: 500px;
+height: 400px;
+flex-shrink: 0;
+}
+.ter-nac{
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.ter-nac1{
+  width: 87px;
+  height: 87px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+}
+
+.ter-nac h3{
+  color: #252B42;
+font-size: 14px;
+font-weight: 700;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.2px;
+}
+.ter-nac h3 span{
+  color: #1100D9;
+font-size: 22px;
+font-weight: 500;
+letter-spacing: 0.2px;
+}
+
+.info-bottom{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 70px;
+
+}
+.modal-window img{
+  width: 350px;
+height: 400px;
+flex-shrink: 0;
+
+}
+.modal-window{
+  position: fixed;
+  background-color: rgba(255, 255, 255);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  visibility: hidden;
+  transition: all 0,3s;
+  &:target{
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+  }
+  & > div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50% , -50%, -50% );
+    padding: 2em;
+    background: white;
+    
+  }
+}
+.modal-close{
+  color: #aaa;
+  line-height: 50px;
+  font-size: 80%;  
+  position: absolute;
+  right: 0; 
+  text-align: center;
+  top: 0;
+  width: 70px;
+  text-decoration: none; 
+  &:hover {
+    color:black;
+  }
+}
+.modal-window{
+  & > div {
+    border-radius: 1rem;
+
+  }
+}
+.modal-window h1{
+  color: #252B42;
+font-size: 27px;
+font-weight: 700;
+line-height: 24px; /* 88.889% */
+letter-spacing: 0.2px;
+}
+.modal-window p{
+  color: #000;
+font-size: 17px;
+font-weight: 400;
+line-height: 24px; /* 141.176% */
+letter-spacing: 0.2px;
+margin: 20px;
+}
+.modal-window div:not(:last-of-type){
+  margin-bottom: 15px;
+}
+.tert img{
+  width: 300px;
+height: 320px;
+flex-shrink: 0;
+}
+ .btn{
+  padding: 13px 30px;
+border-radius: 16px;
+border: 2px solid #1100D9;
+color: #1100D9;
+font-size: 18px;
+font-weight: 600;
+line-height: 163.4%; /* 29.412px */
+letter-spacing: 0.2px;
+}
+#teacher{
+  margin: 100px 0;
+}
+.teacher-text{
+  color: #000;
+
+font-size: 24px;
+font-weight: 700;
+letter-spacing: 0.1px;
+}
+.teacher-block img{
+  width: 254px;
+height: 270px;
+flex-shrink: 0;
+}
+.teacher{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+
+}
+.teacher-block{
+  margin: 0 31px;
+}
+.teacher-block h1{
+  color: #000;
+font-size: 18px;
+font-weight: 600;
+line-height: 32px; /* 177.778% */
+letter-spacing: 0.1px;
+}
+.teacher-block p{
+  color: #000;
+font-size: 15px;
+font-weight: 400;
+line-height: 32px; /* 213.333% */
+letter-spacing: 0.1px;
+}
+#teacher1{
+  margin: 100px 0;
+}
+.teacher-text1{
+  color: #000;
+
+font-size: 24px;
+font-weight: 700;
+letter-spacing: 0.1px;
+}
+.teacher-block1 img{
+  width: 370px;
+height: 300px;
+flex-shrink: 0;
+}
+.teacher1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+
+}
+.teacher-block1{
+  margin: 0 31px;
+}
+.teacher-block1 h1{
+  color: #000;
+font-size: 24px;
+font-weight: 800;
+line-height: 42px; /* 177.778% */
+letter-spacing: 0.1px;
+}
+.teacher-block11 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
+}
+.teacher-block11 img{
+  width: 18.778px;
+height: 15.093px;
+flex-shrink: 0;
+fill: #252B42;
+}
+@media (max-width: 1400px;) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1200px;) {
+  .container {
+    width: 1200px;}
+    .ter-nav h1 {
+      font-size: 18px;}
+      .get-nev img {
+        margin: 26px;
+        width: 576px;}
+
+  .teacher-block1 img {
+    width: 345px;
+  height: 300px;}
+
+
+}
+@media (max-width: 678px;) {
+  .container {
+    width: 678px;
+  }
+  .teacher-block img {
+    width: 177px;
+    height: 271px;}
+    .ter-nev img {
+      width: 416px;
+      height: 397px;}
+      .get-nev img {
+        margin: -349px;
+        width: 407px;}
+        #get {
+          height: 475px;
+          width: 969px;}
+          #header {
+            width: 970px;}
+
+
+      
+
+
+  
+}
+@media (max-width: 320px;){
+  .container{
+    width: ;
+  }.get-nav h1 {
+    font-size: 29px;}
+    
+}
